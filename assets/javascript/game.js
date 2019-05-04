@@ -27,14 +27,14 @@ var words = ["Apple","Strawberry","Orange","Grapes","Banana","Blueberry","Pineap
         }
         function youLose(){
           document.getElementById("resetable").innerHTML = "You Lose!";
-          document.getElementById("hearts").src = "images/tryagain.png";
+          document.getElementById("hearts").src = "assets/images/tryagain.png";
           document.getElementById("hearts").addEventListener("click", function(){
             set();
           })
         }
         function youWin(){
           document.getElementById("resetable").innerHTML = "You Win!";
-          document.getElementById("hearts").src = "images/playagain.png";
+          document.getElementById("hearts").src = "assets/images/playagain.png";
           document.getElementById("hearts").addEventListener("click", function(){
             set();
           })
@@ -43,7 +43,7 @@ var words = ["Apple","Strawberry","Orange","Grapes","Banana","Blueberry","Pineap
           if(x === 0){
             youLose();
           } else {
-            document.getElementById("hearts").src = "images/lives" + x + ".png";
+            document.getElementById("hearts").src = "assets/images/lives" + x + ".png";
           }
         }
         function checkComplete(){ //this function is meant to check whether or not there are any _'s in the HTML
