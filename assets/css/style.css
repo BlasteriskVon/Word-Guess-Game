@@ -1,0 +1,24 @@
+body {
+    background-image: url("../images/clouds.png");
+}
+
+#caption {
+    font-size: 7em;
+}
+
+#word {
+    font-size: 5em;
+}
+
+.lives-reset {
+    padding:0;
+    font-size: 2em;
+}
+
+#hearts {
+    width:100%;
+}
+
+#gimmeHint {
+    width: 100%;
+}
